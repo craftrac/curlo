@@ -13,8 +13,8 @@ class Paracurl
     private $username;
     private $password;
     private $endpoint;
-    private $apiUrl;
-    private $apiToken;
+    private $baseUrl;
+    private $token;
 
 
     public function __construct($apiName, $endpoint, $fileEnv=false) 
